@@ -5,7 +5,8 @@ Reinforcement learning training for [LLM-in-Sandbox](https://github.com/llm-in-s
 <p align="left">
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
-  <a href="https://huggingface.co/datasets/daixuancheng/llm-in-sandbox-rl">🤗 Dataset</a>
+  <a href="https://huggingface.co/datasets/daixuancheng/llm-in-sandbox-rl">🤗 Dataset</a> •
+  <a href="https://wandb.ai/785219929/LLM-in-Sandbox-RL/runs/3oi7t055?nw=nwuser785219929">📝 Wandb Log</a>
 </p>
 
 ## Overview
@@ -69,6 +70,8 @@ Key training parameters (edit the script to customize):
 **Online Validation**
 
 During training, we validate on a small subset of [LLM-in-Sandbox Bench](https://github.com/llm-in-sandbox/llm-in-sandbox/blob/main/llm_in_sandbox/benchmark/README.md) (math, biomed, long_context) for a quick trend check. For physics and long_context, we use rule-based reward functions (math-verify and Rouge) instead of LLM-as-a-Judge — these scores are **approximate** and only useful for tracking training progress.
+
+>  Our training log is available on [Weights & Biases](https://wandb.ai/785219929/LLM-in-Sandbox-RL/runs/3oi7t055?nw=nwuser785219929).
 
 > To get accurate final results, evaluate the trained model on the full benchmark, as detailed below.
 
