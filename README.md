@@ -6,6 +6,7 @@ Reinforcement learning training for [LLM-in-Sandbox](https://github.com/llm-in-s
   <a href="https://llm-in-sandbox.github.io">🌐 Project Page</a> •
   <a href="https://arxiv.org/abs/2601.16206">📄 Paper</a> •
   <a href="https://huggingface.co/datasets/daixuancheng/llm-in-sandbox-rl">🤗 Dataset</a> •
+  <a href="https://huggingface.co/daixuancheng/Qwen3-4B-Instruct-2507-LLM-in-Sandbox-RL">🤗 Model Checkpoint</a> •
   <a href="https://wandb.ai/785219929/LLM-in-Sandbox-RL/runs/3oi7t055?nw=nwuser785219929">📝 Wandb Log</a>
 </p>
 
@@ -101,7 +102,7 @@ Built on [DeepSWE](https://github.com/rllm-org/rllm/tree/main/examples/swe), [rL
 If you find our work helpful, please cite us:
 ```bibtex
 @article{cheng2026llm,
-  title={LLM-in-Sandbox Elicits General Agentic Intelligence},
+  title={Llm-in-sandbox elicits general agentic intelligence},
   author={Cheng, Daixuan and Huang, Shaohan and Gu, Yuxian and Song, Huatong and Chen, Guoxin and Dong, Li and Zhao, Wayne Xin and Wen, Ji-Rong and Wei, Furu},
   journal={arXiv preprint arXiv:2601.16206},
   year={2026}
