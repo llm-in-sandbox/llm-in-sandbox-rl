@@ -86,9 +86,6 @@ dependencies = [
     "pydantic",
     "wrapt",
 
-    # LLM-in-Sandbox
-    "llm-in-sandbox>=0.2.0",
-
     # Development and testing
     "pytest",
     "pre-commit",
