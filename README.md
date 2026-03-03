@@ -34,6 +34,12 @@ pip install -e .
 # Fix opencv (needed by verl)
 pip install opencv-python opencv-fixer && \
     python -c "from opencv_fixer import AutoFix; AutoFix()"
+
+# Insall `LLM-in-Sandbox`
+pip install llm-in-sandbox==0.2.0
+# Or install from your modified llm-in-sandbox:
+# cd your-llm-in-sandbox
+# pip install -e .
 ```
 
 ## Quick Start
